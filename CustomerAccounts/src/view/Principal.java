@@ -137,8 +137,8 @@ public class Principal {
         System.out.println("Usuários que fazem parte do cálculo: ");
         customer.buscarCliente(camposBusca, camposNome, sqlQuery);
         
-        //No caso das duas queries, ele nao acha nenhum registro pois nao
-        //existe nenhum cliente no sistema com id entre 1500 e 2700
+        //Foi criado um id_customer sem auto_increment para
+	  //que o sistema achasse usuarios na busca
         
     }
     
